@@ -11,3 +11,4 @@ $entityManager->persist($product);
 $entityManager->flush();
 
 echo "Created Product with ID " . $product->getId() . "\n";
+echo "Created Product with Name " . $product->getName() . "\n";
