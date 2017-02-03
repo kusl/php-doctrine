@@ -34,3 +34,8 @@ $entityManager->persist($bug);
 $entityManager->flush();
 
 echo "Your new Bug Id: ".$bug->getId()."\n";
+echo "Your new Bug Id: " . $bug->getProducts() . "\n";
+echo "Your new Bug Id: " . $bug->getDescription() . "\n";
+echo "Your new Bug Id: " . $bug->getStatus() . "\n";
+echo "Your new Bug Id: " . $bug->getReporter() . "\n";
+echo "Your new Bug Id: " . $bug->getEngineer() . "\n";

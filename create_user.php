@@ -11,3 +11,4 @@ $entityManager->persist($user);
 $entityManager->flush();
 
 echo "Created User with ID " . $user->getId() . "\n";
+echo "Created User with ID " . $user->getName() . "\n";
